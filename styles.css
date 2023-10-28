@@ -8,7 +8,7 @@ body {
   flex-flow: row wrap;
   justify-content: space-evenly;
   align-items: center;
-  padding-top: 180px;
+  padding-top: 120px;
   padding-bottom: 180px; 
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 600;
@@ -55,13 +55,15 @@ body {
   background: green;
   color: white;
   border: 1px solid lightgray;
+
+  
 }
 
 .navbar a:active {
     background: green;
     color: white;
     border: 1px solid lightgray;
-    
+
 }
   
 /* ----------------------- */
@@ -107,17 +109,16 @@ div.container {
 }
 
 #middle {
- width: 100%;
+ width: 90%;
  background-color: rgb(200, 200, 200);
  color: rgb(61,30,8); 
- 
+ border-radius: 80px;
  font-weight: 700;
 }
 
 #bottom {
-  width: 100%;
-  background-color: rgb(204, 204, 204);
-  color: rgb(61,30,8);
+
+  color: rgb(204, 204, 204);
   font-weight: 700;  
 }
 
